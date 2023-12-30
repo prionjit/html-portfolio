@@ -1,2 +1,2 @@
 # html-portfolio
-This is my first ever public website! :)
+This is my first-ever public website! :)
