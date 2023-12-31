@@ -26,12 +26,23 @@
 .headerLinkItem li{
     display: block;
     background-color: black;
+    padding-right: 15px;
+}
+
+.headerLinkItem a{
+    color: white;
+    background-color: black;
+}
+
+.headerLinkItem a:hover{
+    color: green;
+    transition-duration: 700ms;
 }
 
 .headerLinkItem .material-icons{
     color: red;
     margin: 5px;
-    padding: 8px;
+    padding: 5px;
     background-color: black;
     display: block;
     border: 2px solid greenyellow;
@@ -53,7 +64,7 @@
 .profilePhoto{
     display: block;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .profilePhotoImg{
