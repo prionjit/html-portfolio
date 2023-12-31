@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(156, 130, 132, 0.7);
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.headerLink{
+    display: block;
+    background-color: black;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.headerLinkItem{
+    list-style: none;
+    display: inline-flex;
+    background-color: black;
+}
+
+.headerLinkItem li{
+    display: block;
+    background-color: black;
+}
+
+.headerLinkItem .material-icons{
+    color: red;
+    margin: 5px;
+    padding: 8px;
+    background-color: black;
+    display: block;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+}
+
+.headerLinkItem .material-icons:hover{
+    color: red;
+    background-color: white;
+    display: block;
+    transition-duration: 700ms;
+}        
+
+.afterHeader{
+    display: block;
+    padding: 40px;
+}
+
+.profilePhoto{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profilePhotoImg{
+    width: 150px;
+    height: 150px;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+
+.headerItem{
+    text-align: center;
+}
+
+h1{
+    color: darkred;
+}
+
+.headerItem h2{
+    color: red;
+}
+
+.contactLink ul{
+    list-style-type: none;
+    display: block;
+    text-align: center;
+}
+
+.contactLink li{
+    display: inline-flex;
+}
+.contactLink .material-icons{
+    display: block;
+    padding: 3px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+h2{
+    text-align: center;
+}
+
+.aboutMe{
+    display: block;
+}
+
+.aboutMe p{
+    text-align: justify;
+}
+
+.aboutMe p::after{
+    clear: both;
+}
+
+.myProject{
+    display: block;
+    text-align: center;
+}
+
+.myProjectsList{
+    border: 2px solid red;
+}
+.myProjectsList:hover{
+    border: 2px solid green;
+}
+.myProjectsList img{
+    width: 100%;
+    height: auto;
+}
+.projectTitle{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.myProjects{
+    padding: 5px;
+    width: 50%;
+    float: left;
+}
+@media only screen and (max-width:1000px){
+    .myProjects{
+        padding: 5px;
+        width: 100%;
+    }
+}
+.myAddress::before{
+    clear: both;
+}
+.myAddress{
+    display: block;
+    text-align: center;
+}
